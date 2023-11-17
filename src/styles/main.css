@@ -59,6 +59,18 @@ body{
     border: 3px solid red;
 }
 
+.personagem-item-novo{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 5px;
+}
+
+.personagem-item-novo > img{
+    width: 100%;
+    height: 100%;
+}
+
 .viewPersoagem{
     position: absolute;
     bottom: 180px;
