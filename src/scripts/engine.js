@@ -7,7 +7,7 @@ let escolhido = 0;
 
 
 function playAudio(audioName) {
-    let audio = new Audio(`../../src/audio/${audioName}`);
+    let audio = new Audio(`./src/audio/${audioName}`);
     audio.volume = 0.2;
     audio.muted = false;
     audio.play();
@@ -33,7 +33,7 @@ select.forEach((square) => {
 select.forEach((square) => {
     square.addEventListener("mouseenter", () => {
         if(escolhido == 0){
-            character.src = `../src/images/${square.id}.webp`
+            character.src = `./src/images/${square.id}.webp`
         }
     })
 })
